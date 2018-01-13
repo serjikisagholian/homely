@@ -1,0 +1,23 @@
+Homely™ is a startup, operating in the US, aimed at allowing homeowners to rent out their properties to earn extra cash. The platform has two types of users: the homeowners who need to be able to list their property, and the renters who need to search for available properties within a given timeframe. The platform then allows renters to reserve a property.
+
+You’ve been contracted to create a data model and API to tap into Homely’s functionality.
+
+The data model should support:
+Homeowner accounts and renter accounts
+Homeowner properties and the ability for a homeowner to own more than one property
+A reservation system to track a property’s rental availability
+
+The API should provide:
+Basic CRUD for both homeowner and renter accounts
+Basic CRUD for homeowner properties
+The ability to return a list of available properties within a specified range of dates. Don’t worry about searching based on location.
+The ability for a renter to reserve the property for those dates
+The ability for a renter to modify or cancel a reservation
+
+Nice to haves:
+Homely’s team of hardworking support staff need an administrator’s view into the system. Could you provide a barebones UI that makes use of the API you created?
+Reporting on this data will be a critical part of the business, so that should be considered in the design. What sort of metrics could we gather and how could you provide it to us?
+
+This specification is intentionally vague. Don’t get hung up on capturing every last detail and possibility, but also feel free to wow us with your amazing skills! The goal is for you to provide a workable model and business functionality.
+
+Once you are finished, commit your project to a Git repository and email us with the link for review. Please include instructions that describe how to install, run, and test your application. Be prepared to discuss your coding decisions.
